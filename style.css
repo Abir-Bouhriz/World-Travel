@@ -345,3 +345,109 @@
     margin-left: 1rem;
   }
   /* End of Stories */
+
+  /* Contact */
+  .contact{
+    padding: 15rem 0 20rem 0;
+    text-align: center;
+    background: url(image/contact-us-bg.png) center no-repeat;
+    background-size: cover;
+    animation: contact-bg 35s infinite;
+  }
+
+  .contact-heading{
+    font-size: 7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: var(--white-color);
+    text-shadow: 0 1rem 2rem #000;
+    margin-bottom: 8rem;
+  }
+
+  .contact-form{
+    width: 70rem;
+    height: 50rem;
+    background-color: rgba(255, 255, 255, .95);
+    margin: auto;
+    flex-direction: column;
+    border-radius: .5rem;
+    box-shadow: 0 1rem 3rem #000;
+    padding: 5rem;
+  }
+
+  .input-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    position: relative;
+  }
+
+  .input-groups{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-groups .input-group{
+    width: 48.5%;
+  }
+
+  .input-group input, .input-group textarea{
+    padding: 3rem 1rem 1rem 1rem;
+    background-color: var(--secondary-color);
+    border: .1rem solid var(--secondary-color);
+    font-size: 1.4rem;
+    color: var(--light-grey-color);
+    letter-spacing: .1rem;
+    border-radius: .5rem;
+    transition: border .3s;
+  }
+
+  .input-group input:focus, .input-group textarea:focus{
+    border: .1rem solid #ccc;
+  }
+
+  .input-group label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: var(--grey-color);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .form-btn{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    margin-top: 1rem;
+    background-color: var(--light-grey-color);
+    color: var(--white-color);
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color .4s;
+  }
+
+  .form-btn:hover{
+    background-color: var(--grey-color);
+  }
+
+  .input-group textarea{
+    max-height: 15rem;
+    max-width: 100%;
+  }
+
+  @keyframes contact-bg{
+    0%{background-color: #3d3d3d;}
+    25%{background-color: #ced8e4;}
+    50%{background-color: #1e81f3;}
+    75%{background-color: #ff7842;}
+    100%{background-color: #3d3d3d;}
+  }
+  /* End of Contact */
