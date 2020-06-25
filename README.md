@@ -7,7 +7,7 @@ This is a website dedicated to travel and outdoor activities.
 * CSS
 * JavaScript
 * Visual Studio Code ( Text editor )
-##Screenshots:
+## Screenshots:
 <img src="screenshots/screenshot1.png" />
 <img src="screenshots/screenshot2.png" />
 
